@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to bottom, #000000, #2a5298);
+    color: #fff;
+    padding: 10px 20px;
+    font-family: Satisfy;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0 8px 10px rgba(35, 1, 253, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+}
+
+.card img {
+    max-width: 100px;
+    margin-bottom: 15px;
+}
+
+footer {
+    background: linear-gradient(to bottom, #2a5298, #000000);
+
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-icons a {
+    margin: 100 10px;
+    text-decoration: none;
+}
+
+address {
+    margin-top: 15px;
+}
+.galeria { 
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 1rem; 
+    justify-content: center; 
+    padding: 20px;
+} 
+.galeria img { 
+    width: 200px;height: auto;
+      border-radius: 8px;
+       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+         transition: transform 0.3s ease; 
+ } 
+ .galeria img:hover { 
+    transform: scale(1.1);
+}
+/* Estilo para la tabla */
+.tabla-encuesta {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tabla-encuesta td {
+    padding: 10px 15px;
+    font-size: 1rem;
+    text-align: left;
+    vertical-align: top;
+}
+
+.tabla-encuesta tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.tabla-encuesta tr:hover {
+    background-color: #f1f1f1;
+}
+
+.tabla-encuesta label {
+    font-weight: bold;
+    color: #00254d;
+}
+
+.tabla-encuesta input,
+.tabla-encuesta textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.tabla-encuesta textarea {
+    resize: vertical;
+}
+
+.btn-enviar {
+    background-color: #00254d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-enviar:hover {
+    background-color: #0056b3;
+}
